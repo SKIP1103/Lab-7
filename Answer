@@ -299,10 +299,11 @@ public class RectangleAppGUI extends javax.swing.JFrame {
 
     private void resetBtnMouseClicked(java.awt.event.MouseEvent evt) {                                      
         // TODO add your handling code here:
+        // TODO add your handling code here:
         lengthTF.setText("Enter a number");
         widthTF.setText("Enter a number");
-        areaTF.setText("Area is length");
-        perimeterTF.setText("Perimeter is");
+        areaTF.setText("Area is length * width");
+        perimeterTF.setText("Perimeter is 2 * (length + width)");
         
         displayA.setText(null);
     }                                     
